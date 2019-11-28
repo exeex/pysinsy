@@ -123,3 +123,5 @@ cdef extern from "sinsy.h" namespace "sinsy":
 
         #! save score to MusicXML
         bool saveScoreToMusicXML(const string& xml)
+
+#TODO: 參照 lib/sinsy/src/bin/sinsy.cpp 把main function做出來
